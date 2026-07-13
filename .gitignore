@@ -1,31 +1,36 @@
-# Python cache files
+# ==============================
+# Python Cache Files
+# ==============================
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
+*$py.class
 
-# Virtual environment
+# ==============================
+# Virtual Environment
+# ==============================
 venv/
 env/
 .venv/
+.venv-1/
 
-# Jupyter Notebook checkpoints
+# ==============================
+# Jupyter Notebook Checkpoints
+# ==============================
 .ipynb_checkpoints/
 
-# Model files (large binary files)
-models/*.pkl
-
-# Chat history
-chat_history/
-
-# Generated images (optional)
-images/*.png
-
-# Dataset (if private or large)
-# dataset/
-
-# VS Code settings
+# ==============================
+# VS Code Settings
+# ==============================
 .vscode/
 
-# Operating system files
+# ==============================
+# Chat History (optional)
+# ==============================
+chat_history/
+
+# ==============================
+# Operating System Files
+# ==============================
 .DS_Store
 Thumbs.db
+desktop.ini
