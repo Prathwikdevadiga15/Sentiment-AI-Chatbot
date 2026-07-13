@@ -1,0 +1,16 @@
+text,sentiment
+I am very happy,Positive
+This is amazing,Positive
+I love this product,Positive
+Today is a wonderful day,Positive
+I feel excited,Positive
+I am sad,Negative
+This is terrible,Negative
+I hate this,Negative
+I am disappointed,Negative
+Everything is bad,Negative
+Today is Monday,Neutral
+I am going to college,Neutral
+The sky is blue,Neutral
+I have a pen,Neutral
+This is a computer,Neutral

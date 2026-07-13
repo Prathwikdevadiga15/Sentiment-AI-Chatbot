@@ -1,0 +1,31 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Model files (large binary files)
+models/*.pkl
+
+# Chat history
+chat_history/
+
+# Generated images (optional)
+images/*.png
+
+# Dataset (if private or large)
+# dataset/
+
+# VS Code settings
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
