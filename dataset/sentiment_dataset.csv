@@ -1,16 +1,63 @@
 text,sentiment
-I am very happy,Positive
-This is amazing,Positive
-I love this product,Positive
-Today is a wonderful day,Positive
-I feel excited,Positive
-I am sad,Negative
-This is terrible,Negative
-I hate this,Negative
-I am disappointed,Negative
-Everything is bad,Negative
-Today is Monday,Neutral
-I am going to college,Neutral
-The sky is blue,Neutral
-I have a pen,Neutral
-This is a computer,Neutral
+I am very happy today,positive
+I am feeling great,positive
+I love this product,positive
+This is amazing,positive
+I feel wonderful,positive
+I had a fantastic day,positive
+Everything is awesome,positive
+I am excited,positive
+I got my dream job,positive
+I passed my exam,positive
+I love my family,positive
+Today is a beautiful day,positive
+This food is delicious,positive
+I enjoyed the movie,positive
+I am proud of myself,positive
+I am feeling confident,positive
+Life is wonderful,positive
+I am smiling today,positive
+This made my day,positive
+I appreciate your help,positive
+
+I am sad,negative
+I hate this,negative
+This is terrible,negative
+I feel disappointed,negative
+I am very upset,negative
+This is the worst day,negative
+I failed my exam,negative
+Everything is going wrong,negative
+I am feeling lonely,negative
+I am depressed,negative
+I don't like this,negative
+I am frustrated,negative
+This food tastes awful,negative
+I lost my phone,negative
+I am worried,negative
+I feel miserable,negative
+I regret my decision,negative
+I am exhausted,negative
+Nothing is working,negative
+I am angry,negative
+
+The weather is okay,neutral
+I am going outside,neutral
+It is a normal day,neutral
+Nothing special,neutral
+I am reading a book,neutral
+Today is Monday,neutral
+I am drinking water,neutral
+I have a meeting today,neutral
+The train arrived,neutral
+I am using my laptop,neutral
+I am writing notes,neutral
+The sky is blue,neutral
+I woke up early,neutral
+I am attending class,neutral
+I have completed my homework,neutral
+The shop is open,neutral
+I am walking home,neutral
+I live in Karnataka,neutral
+This is my notebook,neutral
+The fan is running,neutral
