@@ -1,13 +1,78 @@
 text,sentiment
-I am very happy,positive
+I am very happy today,positive
+I feel great today,positive
+I love this movie,positive
 I love this product,positive
 This is amazing,positive
-I feel great today,positive
+This is awesome,positive
+I am excited,positive
+I am smiling today,positive
+I passed my exam,positive
+I got a promotion,positive
+I won the competition,positive
+I had a wonderful day,positive
+Everything is perfect,positive
+Life is beautiful,positive
+I appreciate your help,positive
+I feel confident,positive
+This food is delicious,positive
+I enjoyed the trip,positive
+I am proud of myself,positive
+You made my day,positive
+The weather is beautiful,positive
+I like this place,positive
+I am grateful,positive
+I feel blessed,positive
+This is fantastic,positive
+
 I am sad,negative
-I hate this,negative
+I hate this movie,negative
+I hate this product,negative
 This is terrible,negative
-I feel disappointed,negative
+This is awful,negative
+I am disappointed,negative
+I feel lonely,negative
+I failed my exam,negative
+Everything is going wrong,negative
+I am upset,negative
+I am angry,negative
+This food is bad,negative
+I lost my wallet,negative
+I regret my decision,negative
+I feel miserable,negative
+I am depressed,negative
+This service is horrible,negative
+I am frustrated,negative
+Nothing is working,negative
+This is the worst day,negative
+I don't like this,negative
+I feel tired,negative
+I am worried,negative
+The experience was bad,negative
+I am unhappy,negative
+
+Today is Monday,neutral
+The sky is blue,neutral
 The weather is okay,neutral
 I am going outside,neutral
-It is a normal day,neutral
-Nothing special,neutral
+I have a meeting today,neutral
+I am reading a book,neutral
+I am using my laptop,neutral
+The train arrived,neutral
+The shop is open,neutral
+I woke up early,neutral
+I am attending class,neutral
+The fan is running,neutral
+I have a notebook,neutral
+I am drinking water,neutral
+I live in Karnataka,neutral
+The room is clean,neutral
+I am writing notes,neutral
+This is my phone,neutral
+I have completed my homework,neutral
+Nothing special happened today,neutral
+The sun rises in the east,neutral
+I am sitting in my room,neutral
+It is 10 o'clock,neutral
+The bus is late,neutral
+Today is a normal day,neutral
