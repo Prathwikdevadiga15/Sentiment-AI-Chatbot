@@ -1,12 +1,34 @@
 import streamlit as st
+import joblib
 
-st.set_page_config(page_title="Sentiment AI Chatbot")
+# Load model and vectorizer
+model = joblib.load("models/sentiment_model.pkl")
+vectorizer = joblib.load("models/vectorizer.pkl")
+
+# Page title
+st.set_page_config(page_title="Sentiment AI Chatbot", page_icon="🤖")
 
 st.title("🤖 Sentiment AI Chatbot")
-st.write("Welcome to my Sentiment AI Chatbot project.")
+st.write("Enter a message below and click Predict to detect its sentiment.")
 
-user_input = st.text_input("Enter your message:")
+# User input
+user_input = st.text_area("Enter your message")
 
-if user_input:
-    st.write("You entered:", user_input)
-    st.success("Chatbot is working successfully!")
+if st.button("Predict Sentiment"):
+    if user_input.strip() == "":
+        st.warning("Please enter a message.")
+    else:
+        text = vectorizer.transform([user_input])
+        prediction = model.predict(text)[0]
+
+        if prediction.lower() == "positive":
+            st.success("😊 Positive Sentiment")
+            st.write("Response: Awesome! I'm happy for you.")
+
+        elif prediction.lower() == "negative":
+            st.error("😔 Negative Sentiment")
+            st.write("Response: I'm here to listen if you want to share more.")
+
+        else:
+            st.info("😐 Neutral Sentiment")
+            st.write("Response: Thanks for sharing.")
