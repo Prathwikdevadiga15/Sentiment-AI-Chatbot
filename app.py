@@ -20,6 +20,7 @@ if st.button("Predict Sentiment"):
     else:
         text = vectorizer.transform([user_input])
         prediction = model.predict(text)[0]
+        st.write("Prediction:",prediction)
 
         if prediction.lower() == "positive":
             st.success("😊 Positive Sentiment")
